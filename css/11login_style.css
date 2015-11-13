@@ -1,3 +1,4 @@
+@charset "utf-8";
 html{
 	font-size: 12px;
 	vertical-align:center;
@@ -31,7 +32,7 @@ div,h1{
 	margin-left: auto;
 }
 #login_inner {
-	height: 165px;
+	height: 160px;
 	width: 350px;
 	margin-top: 20px;
 	margin-right: auto;
@@ -52,7 +53,7 @@ div,h1{
 	line-height: 35px;
 }
 h1 {
-	font-family: "ËÎÌå";
+	font-family: "Ã‹ÃŽÃŒÃ¥";
 	font-size: 24px;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -89,6 +90,7 @@ h1 {
 }
 #login_footer {
 	text-align: center;	
+	margin-top::;0px;
 }
 
 
@@ -101,4 +103,20 @@ h1 {
 	border: 2px solid #33FF33;
 	color: #FFFFFF;
 	font-family:Arial, Helvetica, sans-serif;
+}
+#msgSuc{
+	width:250px;
+	height:20px;
+	text-align:center;
+	color:red;
+	margin:0 auto 10px auto;
+}
+#msgFail{
+	width:250px;
+	height:150px;
+	margin:20px auto 0 auto;
+	color:black;
+	text-align:center;
+	line-height:150px;
+	font-size:20px;
 }
